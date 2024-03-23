@@ -21,7 +21,7 @@ export default function Header({
 						<a href="index.html">
 							<img
 								className="img-fluid"
-								src="/img/logo.svg"
+								src="public/img/logo.svg"
 								alt="imagen logo"
 							/>
 						</a>
@@ -30,7 +30,7 @@ export default function Header({
 						<div className="carrito">
 							<img
 								className="img-fluid"
-								src="/img/carrito.png"
+								src="public/img/carrito.png"
 								alt="imagen carrito"
 							/>
 
@@ -55,7 +55,7 @@ export default function Header({
 														<td>
 															<img
 																className="img-fluid"
-																src={`/img/${guitar.image}.jpg`}
+																src={`public/img/${guitar.image}.jpg`}
 																alt="imagen guitarra"
 															/>
 														</td>
